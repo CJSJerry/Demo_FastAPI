@@ -50,7 +50,8 @@ Replace the placeholders with your own postgres credentials
 1. Edit the url to the database in the .env file to: \
 `DATABASE_URL=postgresql://{username}:{password}@localhost:5432/demo_db` \
 Replace the placeholders with your own postgres credentials 
-- Again for the purpose of this demo, simply copy-paste: `DATABASE_URL=postgresql://{username}:{password}@localhost:5432/demo_db` \
+- Again for the purpose of this demo, simply copy-paste: \
+`DATABASE_URL=postgresql://{username}:{password}@localhost:5432/demo_db`
 - This is necessary since the tests are run locally, not inside the API container
 2. Test all possible response codes for all endpoints of all tables by running `pytest -v`, and verify that all 70 tests pass
 
